@@ -1,0 +1,17 @@
+------------------------------------- 命令 ---------------------------------------
+
+1、ts安装：npm install -g typescript
+    -g 全局安装
+
+2、初始化ts自动编译为js的配置文件（tsconfig.json）
+    tsc --init
+
+------------------------------------- 心得 ---------------------------------------
+1、浏览器现在无法直接执行部分ts代码，需要转换为js，后续谷歌会支持
+2、vs code 自动将ts编译为js：先初始化(tsc --init)，然后选择目录 -> 终端 -> 运行任务 -> 选择tsc监视和tsconfig.json运行, 会自动应用到目录及子目录
+3、可迭代性:当一个对象实现了Symbol.iterator属性时，我们认为它是可迭代的。 一些内置的类型如 Array，Map，Set，String，Int32Array，Uint32Array等都已经实现了各自的Symbol.iterator。 对象上的 Symbol.iterator函数负责返回供迭代的值。
+4、ctrl + k + s 查看VSCode快捷键
+5、
+ 
+ 
+ 
